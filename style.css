@@ -37,7 +37,7 @@ p {
   font-size: 1.6rem;
   margin-top: 5px;
   line-height: 2.5rem;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 0.05rem;
 }
 
@@ -52,7 +52,7 @@ p {
 }
 
 .section-title span {
-  color: #15e8eb;
+  color: #ec486a;
 }
 
 .cta {
@@ -60,7 +60,7 @@ p {
   padding: 10px 30px;
   color: white;
   background-color: transparent;
-  border: 2px solid #15e8eb;
+  border: 2px solid #ec486a;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -72,7 +72,7 @@ p {
 
 .cta:hover {
   color: white;
-  background-color: #15e8eb;
+  background-color: #ec486a;
 }
 
 .brand h1 {
@@ -87,14 +87,13 @@ p {
 
 /* leer más section */
 
-.hide{
+.hide {
   display: none;
 }
 
-.show{
+.show {
   display: inline;
 }
-
 
 /* End leer más section */
 
@@ -175,7 +174,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-  color: #15e8eb;
+  color: #ec486a;
 }
 
 #header .hamburger {
@@ -303,7 +302,7 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: #15e8eb;
+  background-color: #ec486a;
   animation: text_reveal_box 1s ease;
   animation-delay: 0.3s;
   border-radius: 50px;
@@ -355,7 +354,7 @@ p {
   padding: 30px;
   border-radius: 10px;
   overflow: hidden;
-  background-image: url(./img/img-1.png);
+  background-image: url(./img/ecomueblesbgi.png);
   background-size: cover;
   margin: 10px 5%;
   position: relative;
@@ -390,6 +389,21 @@ p {
 #services .service-item p {
   color: white;
   text-align: left;
+}
+
+#services .readMore_btn {
+  background-color: transparent;
+  border: none;  
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none !important;
+  color: #fa9a22;
+}
+
+#services .readMore_btn:hover {
+  color: #ec486a;
 }
 
 /* End Services Section */
@@ -492,17 +506,17 @@ p {
 
 /* About Section */
 
-#about .gracias {
+/* #about .gracias {
   display: flex;
   flex-direction: row;
   justify-content: center;
   font-size: 25px;
   font-weight: 200;
   text-align: center;
-  color: #15e8eb;
+  color: #ec486a;
   padding: 1rem;
   background-color: #29323c;
-}
+} */
 
 #about .empresas {
   padding-left: 10px;
@@ -560,8 +574,23 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid #15e8eb;
+  border: 7px solid #ec486a;
   z-index: -1;
+}
+
+#about .readMore_btn {
+  background-color: transparent;
+  border: none;  
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none !important;
+  color: #fa9a22;
+}
+
+#about .readMore_btn:hover {
+  color: #ec486a;
 }
 
 /* End About Section */
@@ -607,7 +636,7 @@ p {
 }
 
 #contact .contact-item a:hover {
-  color: #15e8eb;
+  color: #ec486a;
 }
 
 /* #contact .contact-item a h1 {
@@ -695,7 +724,7 @@ p {
 }
 
 #footer p a {
-  color: #15e8eb;
+  color: #ec486a;
 }
 
 /* End Footer Section */
@@ -740,13 +769,13 @@ p {
 #fotos img {
   width: 100%;
   height: 26%;
-  border: #15e8eb solid 1px;
+  border: #ec486a solid 1px;
   margin-left: 0;
   margin-bottom: 10px;
 }
 
 #fotos .fotos h1 {
-  color: #15e8eb;
+  color: #ec486a;
   text-align: center;
   font-size: 50px;
   font-weight: 200;
@@ -795,7 +824,7 @@ p {
 
 @keyframes text_reveal_name {
   100% {
-    color: #15e8eb;
+    color: #ec486a;
     font-weight: 600;
   }
 }
@@ -806,7 +835,7 @@ p {
 
 @media only screen and (min-width: 768px) {
   #fotos img {
-    border: #15e8eb solid 5px;
+    border: #ec486a solid 5px;
     width: 100%;
     height: 27%;
     margin-left: 1.5rem;
@@ -890,7 +919,7 @@ p {
     top: 34px;
     height: 98%;
     width: 98%;
-    border: 10px solid #15e8eb;
+    border: 10px solid #ec486a;
   }
 
   #about .col-right {
@@ -911,7 +940,7 @@ p {
     font-size: 40px;
     font-weight: 200;
     text-align: center;
-    color: #15e8eb;
+    color: #ec486a;
     padding: 6rem;
     background-color: #29323c;
   }
